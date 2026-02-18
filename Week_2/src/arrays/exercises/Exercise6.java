@@ -14,6 +14,9 @@ public class Exercise6
 {
     public static void main(String[] args)
     {
-        // TODO: Implement exercise
+//        // TODO: Implement exercise
+//        int[] = new Array[10];
+
+
     }
 }
