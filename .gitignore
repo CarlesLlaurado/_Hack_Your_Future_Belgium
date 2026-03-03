@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# JetBrains
+.idea/
+
+# Python (opcional pero recomendado)
+__pycache__/
+*.pyc
