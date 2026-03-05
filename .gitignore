@@ -4,6 +4,11 @@
 # JetBrains
 .idea/
 
-# Python (opcional pero recomendado)
+# Python
 __pycache__/
 *.pyc
+*.pyo
+
+# Env
+.env
+venv/
