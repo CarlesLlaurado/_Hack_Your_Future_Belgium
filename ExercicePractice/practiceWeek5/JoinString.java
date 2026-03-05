@@ -3,10 +3,14 @@ package practiceWeek5;
 public class JoinString {
 
     public static String join(String... words) {
-        String result = "";
+        StringBuilder result = new StringBuilder();
         for (String s : words) {
-            result += s;
+            result.append(s);
         }
-        return result;
+        return result.toString();
+    }
+
+    static void main(String[] args) {
+        System.out.println(join("Hello", " ", "World"));
     }
 }
