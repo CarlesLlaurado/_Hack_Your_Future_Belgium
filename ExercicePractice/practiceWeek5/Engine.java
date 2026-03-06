@@ -2,9 +2,14 @@ package practiceWeek5;
 
 public class Engine {
 
-    int horsePower;
+    private int horsePower;
+
+    public Engine(int horsePower) {
+        this.horsePower = horsePower;
+    }
 
     public void start() {
+
         System.out.println("Engine started");
     }
 }
