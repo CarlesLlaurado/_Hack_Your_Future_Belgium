@@ -15,4 +15,18 @@ public class Exercise2
     {
         // TODO: Create Person objects using both constructors
     }
+
+    Exercise2() {
+
+    }
+}
+
+/**
+ * This class will be used in Example2Contructors.java
+ */
+class WeTrySomething {
+    public int field;
+    public WeTrySomething() {
+
+    }
 }

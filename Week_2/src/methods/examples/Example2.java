@@ -1,5 +1,6 @@
 package methods.examples;
 
+
 /**
  * Example 2: Methods with Modifiers
  * - Access Modifiers: public, protected, default, private

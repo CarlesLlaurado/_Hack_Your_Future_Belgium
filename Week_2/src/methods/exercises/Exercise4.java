@@ -3,7 +3,7 @@ package methods.exercises;
 /**
  * Exercise 4: Special Methods
  * ----------------------------
- * TODO:
+ * TODO: do a lesson on this one
  * 1. Create a constructor that prints "Object created".
  * 2. Create a varargs method `printStrings(String... words)` that prints all words.
  * 3. Create an abstract class Shape with abstract method `draw()`.
