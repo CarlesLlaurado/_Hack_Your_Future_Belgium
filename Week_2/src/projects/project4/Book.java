@@ -1,34 +1,27 @@
 package projects.project4;
 
 public class Book {
-
-    private String title;
+    String title;
     String author;
-    Integer year;
+    int year;
 
-    // default constructor, no-args constructor
-    public Book() {
-        title = "Empty Title";
-        author = "";
+    Book() {
+        title = "Book title";
+        author = "author";
         year = 0;
+
     }
 
-    // parametrized constructor, all-args constructor
-    public Book(String title, String author, Integer year) {
+    Book(String title, String author, int year) {
         this.title = title;
         this.author = author;
         this.year = year;
     }
 
-    public void printDetails() {
-        System.out.printf("Title: %s, Author: %s, Year: %d\n", this.title, this.author, this.year);
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getTitle() {
-        return this.title;
+    void printDetails() {
+        System.out.print("Title: " + this.title);
+        System.out.print(" Author: " + this.author);
+        System.out.print(" year: " + year);
+        System.out.println();
     }
 }
