@@ -12,4 +12,32 @@ package constructors.exercises;
 
 public class Student
 {
+    private String name;
+    private int id;
+    private static int studentCount;
+
+    public Student(String name) {
+        this.name = name;
+        this.id = ++studentCount;
+    }
+
+    public void getStudentInfo() {
+        System.out.println("ID: " + id + " name: " + name);
+    }
+
+    public static int getTotalStudents() {
+        return studentCount;
+    }
+
+
+    public static void main(String[] args) {
+        Student student1 = new Student("Carles");
+        Student student2 = new Student("Rafaela");
+
+        student1.getStudentInfo();
+        student2.getStudentInfo();
+
+        int totalStudents = Student.getTotalStudents();
+        System.out.println(totalStudents);
+    }
 }
