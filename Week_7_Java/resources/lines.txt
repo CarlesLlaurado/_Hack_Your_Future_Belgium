@@ -1,0 +1,4 @@
+First OOP principles
+Second streams and lambdas
+Third input output again
+Fourth testingNew log entry: Application started.

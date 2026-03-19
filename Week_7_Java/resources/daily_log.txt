@@ -1,0 +1,8 @@
+2026-03-18T15:00:03.728500, ERROR, database error connection2026-03-18T15:00:34.090585, INFO, Please log in before changing anything2026-03-18T15:02:54.597449, WARN, Please be careful with last changes
+2026-03-18T15:03:10.753936, INFO, Log in properly please
+2026-03-18T16:18:40.116696, INFO, error message
+2026-03-18T16:19:25.741128, INFO, info message
+2026-03-18T16:20:10.833835, INFO, INFO MESSAGE
+2026-03-18T16:20:21.145747, WARN, warn message
+2026-03-18T16:24:22.798625, ERROR, Error messag
+2026-03-18T16:31:34.691124, INFO, info message
